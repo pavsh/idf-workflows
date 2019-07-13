@@ -39,15 +39,6 @@ function App() {
           onHide={() => setSelectedWorkflow(null)}
         />
       )}
-      <a
-        style={{ float: 'left' }}
-        href={'https://group2webapp.azurewebsites.net'}
-        target="_blank"
-      >
-        מי קצינתו/מפקדתו?
-      </a>
-      <br />
-      <br />
     </>
   );
 }
@@ -83,6 +74,7 @@ function WorkflowDrawer({ workflow, onHide }) {
           צווארי בקבוק פוטנציאליים
         </span>
         <br />
+        <br />
         <span>מצאתם טעות?</span>{' '}
         <a
           href={`https://github.com/moshekatz/idf-workflows/blob/master/src/workflows/${
@@ -94,7 +86,7 @@ function WorkflowDrawer({ workflow, onHide }) {
           תוכלו להציע תיקון כאן
         </a>
         <br />
-        אגב, כן. גם אנחנו חושבים שאפשר לשפר את התהליך,{' '}
+        <b>אגב, כן.</b> גם אנחנו חושבים שאפשר לשפר את התהליך,{' '}
         <a
           href="https://chat.whatsapp.com/KnpHJ4fmdYa2u5hlNyeEEB"
           target="_blank"
