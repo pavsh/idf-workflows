@@ -79,16 +79,32 @@ function WorkflowDrawer({ workflow, onHide }) {
       </Drawer.Body>
       <Drawer.Footer>
         <span>
-          שימו לב, סימנו <span style={{ color: 'red' }}>באדום </span>
-          צווארי בקבוק פוטנציאליים,
+          הדגשנו עבורכם <span style={{ color: 'red' }}>באדום </span>
+          צווארי בקבוק פוטנציאליים
         </span>
         <br />
-        (וכן, גם אנחנו חושבים שאפשר לשפר את התהליך, למה שלא{' '}
-        {
-          <span style={{ color: 'blue', textDecoration: 'underline' }}>
-            תציעו הצעה?)
-          </span>
-        }
+        <span>מצאתם טעות?</span>{' '}
+        <a
+          href={`https://github.com/moshekatz/idf-workflows/blob/master/src/workflows/${
+            workflow.fileName
+          }.js`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          תוכלו להציע תיקון כאן
+        </a>
+        <br />
+        אגב, כן. גם אנחנו חושבים שאפשר לשפר את התהליך,{' '}
+        <a
+          href="https://chat.whatsapp.com/KnpHJ4fmdYa2u5hlNyeEEB"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          מוזמנים לדבר איתנו
+        </a>
+        <br />
+        <br />
+        <br />
       </Drawer.Footer>
     </Drawer>
   );
