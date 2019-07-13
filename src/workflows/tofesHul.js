@@ -9,7 +9,7 @@ export default {
       isBottleneck: true,
     },
     {
-      title: "פתחו בקשה של טוםס חו''ל באתר צה''ל",
+      title: "פתחו בקשה של טופס חו''ל באתר צה''ל",
       description: 'כבר לא צריך להדפיס טפסים, אפשר להגיש את הבקשה באופן מכוון',
       isBottleneck: false,
     },
