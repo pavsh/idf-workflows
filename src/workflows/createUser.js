@@ -10,7 +10,7 @@ export default {
       isBottleneck: true,
     },
     {
-      title: 'הוציאו טופס יצירת משתמש ממרכז המחשוב היחידתי',
+      title: 'הוציאו טופס יצירת משתמש ממרכז המחשוב היחידתי - 7767',
       description: '',
       isBottleneck: true,
     },
