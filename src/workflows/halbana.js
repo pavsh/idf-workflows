@@ -12,7 +12,7 @@ export default {
     {
       title: 'צרבו את המידע שאתם רוצים להעביר על דיסק',
       description: '(בהצלחה עם למצוא צורב דיסקים או מחשב עם כונן)',
-      isBottleneck: false,
+      isBottleneck: true,
     },
     {
       title: 'בדקו אם אישרו לכם את הבקשה',
